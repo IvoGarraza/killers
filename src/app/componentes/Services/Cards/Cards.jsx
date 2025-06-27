@@ -8,8 +8,8 @@ import img5 from "../../../../../public/assets/produccion.jpg";
 
 const Cards = () => {
   return (
-    <div className="w-full h-1/2 grid sm:grid-cols-5 grid-cols-1 sm:gap-4 gap-2 items-center justify-center ">
-      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl bg-terciario">
+    <div className="w-full h-1/2 grid sm:grid-cols-5 grid-cols-1 sm:gap-4 gap-2 p-4 items-center justify-center rounded-b-2xl bg-terciario">
+      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl transition-all hover:bg-cuarto hover:text-black bg-black text-terciario">
         <div className="h-1/2 rounded-xl overflow-hidden">
           <Image
             alt="prensa"
@@ -18,14 +18,14 @@ const Cards = () => {
           ></Image>
         </div>
         <div className="p-2">
-          <span className="text-black text-2xl font-bold">Prensa</span>
-          <p className="text-black text-sm">
+          <span className=" text-2xl font-bold">Prensa</span>
+          <p className=" text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quos.
           </p>
         </div>
       </div>
-      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl bg-terciario">
+      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl transition-all hover:bg-cuarto hover:text-black bg-black text-terciario">
         <div className="h-1/2 rounded-xl overflow-hidden">
           <Image
             alt="influencer"
@@ -34,14 +34,14 @@ const Cards = () => {
           ></Image>
         </div>
         <div className="p-2">
-          <span className="text-black text-2xl font-bold">Influencer</span>
-          <p className="text-black text-sm">
+          <span className=" text-2xl font-bold">Influencer</span>
+          <p className=" text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quos.
           </p>
         </div>
       </div>
-      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl bg-terciario">
+      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl transition-all hover:bg-cuarto hover:text-black bg-black text-terciario">
         <div className="h-1/2 rounded-xl overflow-hidden">
           <Image
             alt="evento"
@@ -50,14 +50,14 @@ const Cards = () => {
           ></Image>
         </div>
         <div className="p-2">
-          <span className="text-black text-2xl font-bold">Evento</span>
-          <p className="text-black text-sm">
+          <span className=" text-2xl font-bold">Evento</span>
+          <p className=" text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quos.
           </p>
         </div>
       </div>
-      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl bg-terciario">
+      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl transition-all hover:bg-cuarto hover:text-black bg-black text-terciario">
         <div className="h-1/2 rounded-xl overflow-hidden">
           <Image
             alt="rrss"
@@ -66,14 +66,14 @@ const Cards = () => {
           ></Image>
         </div>
         <div className="p-2">
-          <span className="text-black text-2xl font-bold">RRSS</span>
-          <p className="text-black text-sm">
+          <span className=" text-2xl font-bold">RRSS</span>
+          <p className=" text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quos.
           </p>
         </div>
       </div>
-      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl bg-terciario">
+      <div className="w-full h-full p-2 flex sm:flex-col flex-row overflow-hidden rounded-xl transition-all hover:bg-cuarto hover:text-black bg-black text-terciario">
         <div className="h-1/2 rounded-xl overflow-hidden">
           <Image
             alt="produccion"
@@ -82,8 +82,8 @@ const Cards = () => {
           ></Image>
         </div>
         <div className="p-2">
-          <span className="text-black text-2xl font-bold">Produccion</span>
-          <p className="text-black text-sm">
+          <span className=" text-2xl font-bold">Produccion</span>
+          <p className=" text-sm">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quos.
           </p>
